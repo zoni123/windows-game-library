@@ -1,4 +1,4 @@
-# windows-game-library
+# windows-game-library (WIP)
 ### Multiple command-line games. (only working on Windows because of the <Windows.h> header)
 
 # Requirements
