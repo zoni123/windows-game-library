@@ -5,7 +5,7 @@
 
  - Install the [Microsoft Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/)
 
- - Make sure your compiler supports the use of threads.
+ - Make sure your compiler supports threads.
  
  # Known Issues
  
