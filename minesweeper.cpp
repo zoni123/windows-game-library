@@ -46,8 +46,8 @@ void game()
 {
 	for (int i = 0; i < 2 * height; i++)
 	{
-		std::random_device rd;
-		std::mt19937 mt(rd());
+		static std::random_device rd;
+		static std::mt19937 mt(rd());
 		std::uniform_int_distribution<int> dist(0, height - 2);
 		int i1 = dist(mt);
 		int i2 = dist(mt);
