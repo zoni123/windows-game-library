@@ -154,21 +154,21 @@ void RemoveCardP2()
 void DisplayPlayers()
 {
     std::cout << "ENTER 0 TO DRAW CARD" << std::endl << std::endl;
-    if(turn == 0)
+    std::cout << player1 << ": ";
+    if (turn == 0)
     {
-        std::cout << player1 << ": ";
         for (int i = 0; i < p1_nrc; i++)
             std::cout << p1_cards[i][0] << p1_cards[i][1] << ' ';
     }
-    std::cout << "/// P1 CARD COUNT: " << p1_nrc;
+    std::cout << "/// CARD COUNT: " << p1_nrc;
     std::cout << std::endl;
-    if(turn == 1)
+    std::cout << player2 << ": ";
+    if (turn == 1)
     {
-        std::cout << player2 << ": ";
         for (int i = 0; i < p2_nrc; i++)
             std::cout << p2_cards[i][0] << p2_cards[i][1] << ' ';
     }
-    std::cout << "/// P2 CARD COUNT: " << p2_nrc;
+    std::cout << "/// CARD COUNT: " << p2_nrc;
     std::cout << std::endl << std::endl;
 }
 
