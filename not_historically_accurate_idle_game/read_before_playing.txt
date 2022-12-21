@@ -1,0 +1,3 @@
+The game saves progress as "savefile.txt", make sure to rename this to whatever you want inside the code.
+Make sure you press ESC while playing for your progress to be saved.
+In case you close the window directly, it will NOT save.
