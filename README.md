@@ -7,7 +7,7 @@
 
  - Make sure your compiler supports threads.
  
-~~# Known Issues
+~~ # Known Issues
  
   - snake is incomplete, you cannot grow, the game never ends
   - if the user decides to lengthen/shorten (compared to the default) the playing area of pong, the numbers will stay in the same place (lazy code moment)
